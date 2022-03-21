@@ -9,6 +9,7 @@
                 "-fdiagnostics-color=always",
                 "-Wformat-overflow=0",
                 "-g",
+                "/home/zhangjin/projects/apue/src/lib/error.c",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
