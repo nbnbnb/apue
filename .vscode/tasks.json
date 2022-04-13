@@ -12,7 +12,7 @@
                 "/home/zhangjin/projects/apue/src/lib/error.c",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
+                "${fileDirname}/${fileBasenameNoExtension}.run",
                 "-lpthread"
             ],
             "options": {
