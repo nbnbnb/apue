@@ -6,7 +6,7 @@ void temp(void);
 int main(int argc, char *argv[])
 {
 
-    setlocale(LC_ALL, "zh_CN.UTF-8");
+    setlocale(LC_ALL, "");
 
     // 参数个数至少位 1
     // printf("%d\n", argc);
@@ -24,4 +24,5 @@ int main(int argc, char *argv[])
 
 void temp(void)
 {
+
 }
