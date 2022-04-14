@@ -6,6 +6,7 @@
             "label": "GCC-Build",
             "command": "/usr/bin/gcc",
             "args": [
+                "-std=c99",
                 "-fdiagnostics-color=always",
                 "-Wformat-overflow=0",
                 "-g",
@@ -25,7 +26,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "调试器生成的任务。"
+            "detail": "调试器生成的任务"
         }
     ],
     "version": "2.0.0"

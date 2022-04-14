@@ -7,9 +7,8 @@
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
-            // 这个参数，关系到智能提示
-            "cStandard": "gnu11",
-            "cppStandard": "gnu++17",
+            "cStandard": "c99",
+            "cppStandard": "gnu++11",
             "intelliSenseMode": "linux-gcc-x64"
         }
     ],
