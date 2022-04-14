@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     // 第一个参数总是程序名
     // /home/zhangjin/projects/apue/apue
     // printf("%s\n", argv[0]);
-
+    printf("Compiled on: %s %s\n", __DATE__, __TIME__);
     printf("------ Start ------\n");
     temp();
     printf("------  End  ------\n");
